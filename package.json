@@ -1,0 +1,27 @@
+{
+  "name": "reactpack",
+  "version": "1.0.0",
+  "description": "A React, Stylus, Webpack, Node and Babel starter set-up ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony ./**/index.test.js",
+    "start": "node --harmony server.js",
+    "lint": "eslint -c .eslintrc --ext .js,.jsx app",
+    "build": "webpack",
+    "dev": "webpack -w",
+    "release": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaucharman/reactpack.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Beau Charman @beaucharman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beaucharman/reactpack/issues"
+  },
+  "homepage": "https://github.com/beaucharman/reactpack#readme"
+}
